@@ -1,0 +1,60 @@
+.title{
+	margin-left: 43%;
+	padding-top: 7%;
+	color: red;
+}
+form{
+	width: 25%;
+	border: 1px solid black;
+	padding-left: 10px;
+	margin-left: 10%;
+	background-color: gray;
+	display: block;
+	background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v975-background-07-b-kqkr4ukm.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=d92b38f7af4f92cbb48fb96c37560242");
+}
+
+button{
+	margin-bottom: 10px;
+	margin-left: 40%;
+	cursor: pointer;
+}body{
+	width: 100%;
+	background-image: url("https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=");
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.signin{	
+	padding-top: 5%;
+	padding-left: 30%;	
+}
+#mydiv1{
+	margin-left: 7%;
+}
+#mydiv2{
+	margin-left: 16%;
+}
+#mydiv3{
+	margin-left: 16%;
+}
+@media screen and (max-width: 600px) {
+	form{
+		width: 70%;
+		margin-left: 3%;
+		display: block;
+	}
+	h1{
+		margin-left: 2%;
+		padding-top: 7%;
+		color: red;
+	}
+	#mydiv1{
+		margin-left: 16%;
+	}
+	#mydiv2{
+		margin-left: 16%;
+	}
+	#mydiv3{
+		margin-left: 16%;
+	}
+}
